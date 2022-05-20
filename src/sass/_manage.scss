@@ -1,0 +1,206 @@
+.manage-section {
+    padding: 200px 0px 270px 0px;
+}
+.manage-main-title {
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: 0em;
+    line-height: 54px;
+    text-align: left; 
+    margin-bottom: 10px;   
+}
+.manage-text {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color: var(--grey-color);
+    max-width: 545px;
+    margin-bottom: 30px;
+}
+.manage-span {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color: var(--grey-color);
+}
+.manage-hassle-list {
+  & .title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin-bottom: 14px;
+  }
+  & .text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  var(--grey-color);
+  }
+  & .icon {
+      width: 72px;
+      height: 72px;
+  }
+  & .item {
+      display: flex;
+      margin-bottom: 25px;
+  }
+  & .item:last-child {
+      margin-bottom: 0px;
+  }
+  & .text-card-container {
+      margin-left: 28px;
+}
+}
+.manage-burger-title {
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: 0em;
+    line-height: 54px;
+    text-align: left;  
+    margin-bottom: 16px;
+}
+.manage-burger-text {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color:  var(--grey-color);
+    margin-bottom: 30px;
+    max-width: 545px;
+}
+.manage-burger-span {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color: var(--grey-color);
+    position: absolute;
+    top: 52%;
+    left: 38%;
+}
+.manage-burger-list {
+    & .title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;    
+        margin-bottom: 14px;
+      }
+      & .text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  var(--grey-color);
+      }
+      & .span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--grey-color);
+      }
+      .text-card-container {
+          margin-left: 28px;
+          position: relative;
+      }
+      & .icon {
+        width: 72px;
+        height: 72px;
+       }
+      & .item {
+       display: flex;
+       margin-bottom: 55px;
+       }
+       & .item:last-child {
+           margin-bottom: 0px;
+       }
+      & .span {
+        position: absolute;
+        left: 42%;
+        top: 85%;
+       }
+       & .text-indent-span {
+           text-indent: 25px;
+       }
+}
+.manage-delivery-img {
+    max-width: 350px;
+    height: auto;
+    position: absolute;
+    top: 11%;
+    left: 9%;
+    border-radius: 50px;
+}
+.manage-man-img {
+    max-width: 341px;
+    height: auto;
+    position: absolute;
+    left: 33%;
+    bottom: 18%;
+    border-radius: 61px;
+}
+.manage-order-img {
+    max-width: 350px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 9%;
+    border-radius: 50px;
+}
+.manage-burger-img {
+    max-width: 340px;
+    height: auto;
+    border-radius: 61px;
+    position: absolute;
+    bottom: 17%;
+    left: 9%;
+}
+.orange-container {
+    width: 600px;
+    background-color: var(--orange-color);
+    height: auto;
+    position: relative;
+    height: 700px;
+    border-radius: 32px;
+}
+.manage-man-container {
+    display: flex;
+    margin-bottom: 120px;
+}
+.manage-burger-container {
+    display: flex;
+}
+.manage-first-text-container {
+    max-width: 570px;
+    max-height: 470px;
+    margin-left: 55px;
+    padding-top: 151px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.manage-second-text-container {
+    max-width: 570px;
+    max-height: 470px;
+    margin-right: 55px;
+    padding-top: 140px;
+    position: relative;
+}
+.manage-span {
+    position: absolute;
+    left: 39%;
+    top: 52%;
+}

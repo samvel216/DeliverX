@@ -7,10 +7,12 @@
     --hero-background: #E5E5E5;
     --grey-color:  #656565;
     --border-color:  #CACACA;
-
+    --client-background:  #FAFAFA;
+    --client-square: rgba(238, 248, 255, 1);
+    --black-color:rgba(18, 18, 18, 1);
 }
 section {
-    max-width: 1440px;
+   width: 100%;
     margin: 0px auto;
 }
 header {

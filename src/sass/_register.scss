@@ -1,0 +1,57 @@
+.register-section {
+  background-image: linear-gradient(to bottom,
+  var(--client-background) 11%,
+  var(--black-color) 11%,
+  var(--black-color) 62%,
+  var(--white-color) 62%,
+  var(--white-color) 27%
+  );
+}
+.register-main-title {
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 0em;
+    line-height: 66px;
+    text-align: left;    
+    color: var(--white-color);
+    padding-top: 185px;
+}
+.register-span {
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 0em;
+    line-height: 66px;
+    text-align: left; 
+    color: var(--white-color);
+}
+.register-main-text {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color: var(--client-square);
+    max-width: 540px;
+}
+.register-button {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 25px 39px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    border: 1px solid var(--orange-color);    
+}
+.dupler-img {
+    width: 453px;
+   height: 690px;
+   position: absolute;
+}
+.browse-img {
+    width: 453px;
+    height: 690px;
+    position: absolute;
+}
