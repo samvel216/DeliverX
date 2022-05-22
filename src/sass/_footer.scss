@@ -1,0 +1,110 @@
+.footer-menu-title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 22px;
+    text-align: left;   
+    margin-bottom: 40px; 
+}
+.footer-menu-container {
+    max-height: 280px;
+}
+.footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 185px;
+    .item {
+        margin-bottom: 17px;
+    }
+    .item:nth-child(5) {
+        margin-bottom: 0px;
+    }
+    .link {
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 20px;
+        text-align: left;  
+        color: var(--grey-color);    
+        text-decoration: none;  
+    }
+    .item:nth-child(n+6) {
+        margin-left: 40px;
+    }
+}
+.footer-page-title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 22px;
+    text-align: left;   
+    margin-bottom: 40px; 
+}
+.footer-page-list {
+    .link {
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 20px;
+        text-align: left;   
+        text-decoration: none;
+        color:  var(--grey-color);     
+    }
+    .item {
+        margin-bottom: 17px;
+    } 
+    .item:last-child {
+        margin-bottom: 0px;
+    }
+}
+.footer-icon-title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 22px;
+    text-align: left;  
+    margin-bottom: 40px;  
+}
+.footer-icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-left: auto;
+    .icon {
+        width: 76px;
+        height: 76px;
+        border-radius: 24px;
+    }
+    .link {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 24px;
+        text-align: left; 
+        text-decoration: none;       
+        color:  var(--black-color);
+        display: flex;
+        align-items: center;
+        text-indent: 18px;
+    }  
+    .item:nth-child(2n+1) {
+        margin-right: 29px;
+        width: 254px;
+    }
+    .item:nth-child(n+3) {
+        margin-top: 29px;
+    }
+    
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 100px 0px 117px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+.footer {
+    padding-bottom: 40px;
+}

@@ -1,6 +1,5 @@
 .download-section {
-    background-color: var(--primary-text-color);
-    
+    max-width: 1440px;
 }
 .download-main-title {
     font-weight: 700;
@@ -48,6 +47,7 @@
     position: relative;
     max-width: 560px;
     margin-right: 90px;
+    margin-left: 109px;
 }
 .download-first-img-list {
     & .img {
@@ -80,6 +80,7 @@
 }
 .flex-container-download {
     position: relative;
-    padding: 270px 75px;
+    padding: 270px 0px;
+    width: 100%;
     background-color: var(--primary-text-color);
 }

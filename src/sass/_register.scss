@@ -1,11 +1,17 @@
+
 .register-section {
-  background-image: linear-gradient(to bottom,
-  var(--client-background) 11%,
-  var(--black-color) 11%,
-  var(--black-color) 62%,
-  var(--white-color) 62%,
-  var(--white-color) 27%
-  );
+    background-image: linear-gradient(
+        to bottom,
+        var(--client-background) 12%,
+        var(--black-color) 12%,
+        var(--black-color) 72%,
+        var(--white-color) 72%,
+        var(--white-color) 27%,
+    );
+    padding: 130px 0px 0px 0px;
+}
+.register-text-button-container {
+    position: relative;
 }
 .register-main-title {
     font-weight: 400;
@@ -14,7 +20,8 @@
     line-height: 66px;
     text-align: left;    
     color: var(--white-color);
-    padding-top: 185px;
+    margin-bottom: 20px;
+    margin-top: 185px;
 }
 .register-span {
     font-weight: 400;
@@ -23,6 +30,10 @@
     line-height: 66px;
     text-align: left; 
     color: var(--white-color);
+    width: 370px;
+    position: absolute;
+    top: 36%;
+    left: 30%;
 }
 .register-main-text {
     font-weight: 400;
@@ -32,6 +43,7 @@
     text-align: left;    
     color: var(--client-square);
     max-width: 540px;
+    padding-bottom: 33px;
 }
 .register-button {
     font-weight: 700;
@@ -44,6 +56,7 @@
     background-color: var(--orange-color);
     color: var(--white-color);
     border: 1px solid var(--orange-color);    
+    margin-bottom: 176px;
 }
 .dupler-img {
     width: 453px;
@@ -54,4 +67,58 @@
     width: 453px;
     height: 690px;
     position: absolute;
+}
+.register-text-img-container {
+    height: 680px;
+    display: flex;
+}
+.register-icon {
+    width: 200px;
+    height: 60px;
+}
+.register-text {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;    
+    color: var(--grey-color);
+    max-width: 440px;
+    margin-top: 30px;
+}
+.register-icon-button-container {
+    display: flex;
+    align-items: center;
+    padding: 70px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+.register-ios-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 18px;
+    text-align: center;
+    padding: 24px 34px;
+    border-radius: 12px;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    color: var(--white-color);
+    margin-right: 20px;
+}
+.register-android-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 18px;
+    text-align: center;
+    padding: 23px 37px;
+    border-radius: 12px;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    color: var(--white-color);
+}
+.register-button-container {
+    margin-left: auto;
 }
